@@ -51,6 +51,7 @@ function Form() {
                     terms:false
                 })
                 setValid(false)
+                console.log(response.data)
             }
             )
         }
